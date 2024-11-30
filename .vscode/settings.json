@@ -1,0 +1,22 @@
+{
+    "python.languageServer": "Pylance",
+        
+    "python.analysis.include": 
+    [
+      // src 文件夹或其任意子文件夹中，以 s.py 结尾的文件或文件夹
+      "QT_Practice\\"
+	  ],
+    "python.analysis.exclude": [
+      // src 文件夹或其任意子文件夹中，以 test.py 结尾的文件或文件夹
+      "QT_Practice\\**\\*test.py"
+    ],
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    	// 启用导入语句的补全
+	  "python.analysis.autoImportCompletions": true,
+	// 导入语句的补全采用相对名称
+	  "python.analysis.importFormat": "relative",
+	// 启用函数或方法的括号补全
+	  "python.analysis.completeFunctionParens": true,
+	// 启用字符串的 f 前缀补全（可能没有效果）
+  	"python.analysis.autoFormatStrings": true,
+}

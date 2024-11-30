@@ -1,11 +1,3 @@
-'''
-Author: sunke 375352086@qq.com
-Date: 2024-11-21 20:08:25
-LastEditors: sunke 375352086@qq.com
-LastEditTime: 2024-11-22 15:50:56
-FilePath: /PyQT_Practice/WebEngineView.py
-Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
-'''
 """
 用Web浏览器控件(QWebEngineView)显示网页
 PyQt5和Web的交互技术
@@ -33,7 +25,7 @@ class WebEngineView(QMainWindow):
         self.setGeometry(5,30,1355,730)
 
         self.browser = QWebEngineView()
-        self.browser.load(QUrl('https://www.baidu.com/'))
+        self.browser.load(QUrl("https://cn.bing.com/?FORM=Z9FD1"))
         self.setCentralWidget(self.browser)
 
 if __name__ == '__main__':
